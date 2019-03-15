@@ -1,0 +1,23 @@
+
+.idea/
+
+calendars/webCalendars/calendars-today/
+calendars/webCalendars/calendars-week/
+calendars/webCalendars/calendars-tomorrow/
+calendars/calendars-initial/
+calendars/calendars-today/
+calendars/calendars-tomorrow/
+calendars/calendars-week/
+
+#Config
+src/main/java/config/*
+commandsForFatherBot.txt
+
+#Test folders
+src/main/java/tests/
+src/test/
+
+target/
+rhulCal.iml
+
+src/main/resources/

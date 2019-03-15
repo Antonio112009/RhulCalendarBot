@@ -1,0 +1,48 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+.table {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  background-color: white; }
+  .table > div {
+    display: flex;
+    flex-direction: column; }
+    .table > div:nth-child(1) > div {
+      width: 100px; }
+    .table > div:nth-child(n+2) > div {
+      width: 220px; }
+    .table > div > div {
+      font-size: 15px;
+      font-family: Arial, serif;
+      border: 1px solid black;
+      margin-bottom: -1px;
+      margin-right: -1px; }
+      .table > div > div:nth-child(1) {
+        height: 40px;
+        font-weight: bolder;
+        text-transform: uppercase; }
+      .table > div > div:nth-child(n+2) {
+        height: 86px; }
+      .table > div > div > span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100%; }
+
+.color-lecture {
+  background-color: #ffdb83; }
+
+.color-lab {
+  background-color: #d7f7ff; }
+
+.color-default {
+  background-color: #baffa1; }
+
+/*# sourceMappingURL=timetable.css.map */

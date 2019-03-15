@@ -1,0 +1,77 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.table{
+  display: flex;
+  flex-direction: row;
+
+  margin: 15px;
+
+  background-color: white;
+
+  & > div{
+
+    display: flex;
+    flex-direction: column;
+
+    &:nth-child(1) > div{
+      width: 100px;
+    }
+
+    &:nth-child(n+2) > div{
+      width: 220px;
+    }
+
+
+    & > div{
+
+      &:nth-child(1){
+        height: 40px;
+        font-weight: bolder;
+        text-transform: uppercase;
+      }
+
+      &:nth-child(n+2){
+        height: 86px;
+      }
+
+
+
+      font-size: 15px;
+      font-family: Arial, serif;
+
+
+      border: 1px solid black;
+      margin-bottom: -1px;
+      margin-right: -1px;
+
+      & > span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+
+.color-lecture{
+  background-color: #ffdb83;
+}
+
+.color-lab{
+  background-color: #d7f7ff;
+}
+
+.color-default{
+  background-color: #baffa1;
+}
